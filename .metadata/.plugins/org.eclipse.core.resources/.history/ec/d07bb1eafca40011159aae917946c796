@@ -1,0 +1,26 @@
+package core_practice;
+
+public class Elseif {
+
+	public static void main(String[] args) {
+		double marks=84.00;
+		
+		if(marks>=35 && marks<=50){
+			System.out.println("C grade");
+		}
+		else if(marks>=51 && marks<=60) {
+			System.out.println("grade B");
+		}
+		else if(marks>=61 && marks<=74) {
+			System.out.println("Grade A");
+		}
+		else if(marks>=75 && marks<=100) {
+			System.out.println("Grade Distinction");
+		}
+		else(marks<=35 && marks>100){
+			System.out.println("Either Fail or Invalid Input");
+		}
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package core_practice;
+
+public class second {
+
+	public static void main(String[] args) {
+		int num= 15;
+		System.out.println(num--);
+		System.out.println(--num);
+		int num2=20;
+		System.out.println(++num);
+		
+
+	}
+
+}

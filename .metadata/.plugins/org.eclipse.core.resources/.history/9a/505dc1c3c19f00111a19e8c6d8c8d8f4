@@ -1,0 +1,16 @@
+package core_practice;
+
+public class First {
+
+	public static void main(String[] args) {
+	
+		System.out.println("The sum is : "+ sum);
+		int num1=5;
+		float num2=5.55;
+		float sum = num1+num2;
+		System.out.println(sum);
+		
+			
+	}
+
+}
