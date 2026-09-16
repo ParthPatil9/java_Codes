@@ -1,17 +1,19 @@
-package Arrays;
+public class Arrays {
+    public static void main(String[] args) {
 
-public class ArraySum {
+        String str = "Java programming language";
 
-	public static void main(String[] args) {
-			int[] arr = {3,5,7,2,6};
-			int sum=0;
-			for(int i=0;i<arr.length;i++) {
-				sum = sum + arr[i];
-			}
-			System.out.println("sum of all elements: " + sum );
+        String[] words = str.split(" ");
 
-		
+        String longest = "";
 
-	}
+        for(String word : words) {
 
+            if(word.length() > longest.length()) {
+                longest = word;
+            }
+        }
+
+        System.out.println("Longest word = " + longest);
+    }
 }
