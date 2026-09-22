@@ -1,4 +1,6 @@
-public class Arrays {
+package Arrays;
+
+public class ArraySum {
     public static void main(String[] args) {
 
         String str = "Java programming language";

@@ -3,7 +3,7 @@ package Arrays;
 public class SecondLargest { //FIND SECOND LARGEST NUM IN ARRAY
 
 	public static void main(String[] args) {
-		int[] num = {2,8,7,3,5,0,6,8};
+		int[] num = {1,2,3,0,4,0,5};
 		int largest = num[0];
 		int second = num[0];
 		
@@ -22,8 +22,6 @@ public class SecondLargest { //FIND SECOND LARGEST NUM IN ARRAY
 		System.out.println("Largest number is :"+ largest);
 		System.out.println("Second Largest number is :"+ second);
 
-		
-
-	}
+		}
 
 }
