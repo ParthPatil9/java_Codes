@@ -4,7 +4,7 @@ public class SetGet {
 
 	public static void main(String[] args) {
 		Car car = new Car();
-		car.setMileage(55);
+		car.setMileage(49);
 		car.setName("honda");
 		System.out.println(car.getMileage());
 		System.out.println(car.getName());
